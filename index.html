@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+<style>
+#content {
+  background-color: #71d4f0;;
+  margin: 5vh auto;
+  padding: 3vh 0;
+  width: 70vw;
+  max-width: 800px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+}
+
+hr {
+  border-color: white;
+  background-color: white;
+  border-top: none;
+  width: 80%;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 6vh;
+  text-align: center;
+  color: white;
+}
+
+#form {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+label {
+  font-size: 3vh;
+  color: white;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: move;
+}
+
+input {
+  border: none;
+  margin-top: 3vh;
+  padding: 2vh;
+  width: 60%;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  border: solid 1px white;
+  padding: 2vh 3vw;
+  margin: 3vh 1vw 0 1vw;
+  background: transparent;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color:  #71d4f0;
+}
+
+#list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0% 4%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 2.5vh;
+  padding: 3% 2%;
+  margin: 1.5% 0.5%;
+  color: white;
+  width: 95%;
+  list-style-type: none;
+  background-color: #71d4f0;
+  border-radius: 5px;
+}
+
+#list-content i {
+  float: right;
+  color: white;
+  margin-right: 3%;
+  font-size: 110%;
+  transition: all 0.5s ease;
+}
+
+#list-content i:hover {
+  cursor: pointer;
+  color: #ffc2b3;
+}
+
+#list-content .move {
+  margin-left: 1%;
+  float: left;
+}
+
+#list-content .move:hover {
+  cursor: move;
+}
+
+.over {
+  border: 2px solid #737373;
+}
+</style>
+<body>
+      <div id='content'>
+        <h1>ToDo List</h1>
+        <hr>
+        <div id='form'>
+          <label>Add to the list</label>
+          <br>
+          <div id='input'>
+            <input id='listAddition'>
+            <button id='add'>Add</button>
+          </div>
+        </div>
+        <div id='list-content'>
+          <ul id='list'>
+          </ul>
+        </div>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
