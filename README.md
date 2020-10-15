@@ -5,9 +5,9 @@
 > Developed a simple ToDo List Web App to list up items instead of installing/downloading a new software.
 
 ## Screenshots
-![Example screenshot](./img/Screenshot(314).png)<br>
+![Example screenshot](./img/Screenshot (314).png)<br>
 
-![Example screenshot](./img/Screenshot(315).png)<br>
+![Example screenshot](./img/Screenshot (315).png)<br>
 
 ## Technologies
 * HTML5
