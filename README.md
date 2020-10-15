@@ -9,7 +9,7 @@
 
 ![Example screenshot](img/02.png)<br>
 
-## Mobile View
+> Mobile View
 
 ![Example screenshot](img/03.png)<br>
 
