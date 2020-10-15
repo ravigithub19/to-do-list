@@ -11,8 +11,6 @@
 
 ![Example screenshot](img/03.png)<br>
 
-![Example screenshot](img/04.png)<br>
-
 ## Technologies
 * HTML5
 * CSS3
