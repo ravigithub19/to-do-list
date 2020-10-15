@@ -9,8 +9,6 @@
 
 ![Example screenshot](img/02.png)<br>
 
-![Example screenshot](img/03.png)<br>
-
 ## Technologies
 * HTML5
 * CSS3
