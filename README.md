@@ -1,4 +1,4 @@
-# View Live
+## View Live
 > ToDo List - https://ravigithub19.github.io/ToDo-List/
 
 ## About
@@ -9,7 +9,7 @@
 
 ![Example screenshot](img/02.png)<br>
 
-# Mobile View
+## Mobile View
 
 ![Example screenshot](img/03.png)<br>
 
